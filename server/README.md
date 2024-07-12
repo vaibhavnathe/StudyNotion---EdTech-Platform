@@ -1,0 +1,1 @@
+StudyNotion is an Edtecth Platform. In which the instructors can create their course also can modify the course and Students can buy these courses for learning purpose. 
