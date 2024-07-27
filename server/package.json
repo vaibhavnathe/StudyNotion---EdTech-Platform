@@ -11,7 +11,7 @@
 		"studynotion-backend"
 	],
 	
-	"author": "Saikat Mukherjee",
+	"author": "Vaibhav Nathe",
 	"license": "ISC",
 	"dependencies": {
 		"bcrypt": "^5.1.1",
