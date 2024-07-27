@@ -14,6 +14,7 @@ export const getCatalogPageData = async (categoryId) => {
         categoryId: categoryId,
       }
     )
+    console.log("RESPONSE : ", response);
     if (!response?.data?.success) {
       throw new Error("Could Not Fetch Catagory page data.")
     }
