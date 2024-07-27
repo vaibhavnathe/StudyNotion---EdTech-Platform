@@ -40,7 +40,7 @@ function Navbar() {
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
-    ;(async () => {
+    (async () => {
       setLoading(true)
       try {
         const res = await apiConnector("GET", categories.CATEGORIES_API)
