@@ -56,7 +56,7 @@ app.get("/", (req, res) => {
 		success: true,
 		message: "Your server is up and running ...",
 	});
-});a
+});
 
 // Listening to the server
 app.listen(PORT, () => {
