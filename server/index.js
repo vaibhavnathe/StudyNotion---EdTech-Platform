@@ -27,7 +27,9 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin: "https://study-notion-frontend-qv739wg4t-vaibhav-nathes-projects.vercel.app",
+		// origin: "https://study-notion-frontend-qv739wg4t-vaibhav-nathes-projects.vercel.app",
+		// origin:"http://localhost:3000",
+		origin:"*",
 		credentials: true,
 	})
 );
@@ -54,7 +56,7 @@ app.get("/", (req, res) => {
 		success: true,
 		message: "Your server is up and running ...",
 	});
-});
+});a
 
 // Listening to the server
 app.listen(PORT, () => {
